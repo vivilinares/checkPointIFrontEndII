@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/star-trek.ico" type="image/x-icon">
+  <script src="./js/app.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Star Trek Card</title>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="form-login">
+      <img src="./img/star-trek.png" alt="Icone Logo">
+      <h2>Federação dos Planetas Unidos</h2>
+
+      <form class="column-flex">
+
+        <div class="item-form">
+          <input type="text" class="input" placeholder="Nome do Personagem" data-form-name>
+          <label for="name" class="label">Insira o Oficial</label>
+        </div>
+
+        <div class="item-form">
+          <input type="text" class="input" placeholder="patente" data-form-patente>
+          <label for="patente" class="label">Insira a Patente</label>
+        </div>
+
+        <div class="item-form">
+          <input type="url" class="input" placeholder="URL da Imagem" data-form-img>
+          <label for="input" class="label">URL da Imagem</label>
+        </div>
+
+        <button class="btn-submit" type="submit" data-form-btn>Criar</button>
+    </div>
+    </form>
+    <!-- Cards -->
+  </main>
+
+  <div id="box-character">
+    <div class="box-image">
+      <div class="text-character">
+        <h2>James T. Kirk</h2>
+        <img class="character" src="https://upload.wikimedia.org/wikipedia/pt/thumb/d/d2/JamesTKirk.jpg/200px-JamesTKirk.jpg">
+        <p>Commander
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
